@@ -23,7 +23,6 @@ var Queue = function() {
 	  };
 
 	  someInstance.size = function() {
-      console.log(tail-head)
       var size = tail - head
       if(size < 0){
         return 0
@@ -31,6 +30,7 @@ var Queue = function() {
       return tail - head
       }
     };
+
 
 
 	  return someInstance;
